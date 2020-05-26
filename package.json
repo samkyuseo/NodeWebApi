@@ -1,13 +1,13 @@
 {
   "name": "nodewebapi",
   "version": "1.0.0",
-  "description": "Web API for RA position",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server"
   },
-  "author": "Samuel Lee",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "config": "^3.3.1",
