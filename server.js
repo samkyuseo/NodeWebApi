@@ -5,6 +5,8 @@ const connectDB = require('./config/db');
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
+// Connect DB
 connectDB();
 
-app.get('/', (req, res) => res.send('API Running'));
+// Define routes
+app.use('/api', require('./routes/api'));

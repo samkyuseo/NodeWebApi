@@ -11,6 +11,10 @@ Hello future Sams and other interested users. Clone this repo to get a quick Nod
 - `npm run server`
 - add any new scripts in `package.json`. GLHF!!
 
+## Test your server on postman
+
+- make a get request to `http://localhost:5000/api`. You should see a response if everything is working!
+
 ## Notes about important NPM packages
 
 - It uses `express` to make a server
